@@ -27,7 +27,6 @@ setup(name='cantools_mini',
       package_data={"cantools": ["py.typed"]},
       python_requires='>=3.6',
       install_requires=[
-          'python-can>=2.2.0',
           'textparser>=0.21.1',
           'argparse_addons',
           'typing_extensions>=3.10.0.0',

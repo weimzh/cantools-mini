@@ -4,7 +4,6 @@ import importlib
 import pathlib
 import os
 
-from . import tester
 from . import j1939
 from . import logreader
 from .errors import Error
