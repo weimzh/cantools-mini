@@ -6,19 +6,19 @@ from collections import defaultdict
 from decimal import Decimal
 from copy import deepcopy
 
-import textparser
-from textparser import Sequence
-from textparser import choice
-from textparser import ZeroOrMore
-from textparser import OneOrMore
-from textparser import OneOrMoreDict
-from textparser import DelimitedList
-from textparser import Any
-from textparser import AnyUntil
-from textparser import tokenize_init
-from textparser import Token
-from textparser import TokenizeError
-from textparser import Optional
+from .... import textparser
+from ....textparser import Sequence
+from ....textparser import choice
+from ....textparser import ZeroOrMore
+from ....textparser import OneOrMore
+from ....textparser import OneOrMoreDict
+from ....textparser import DelimitedList
+from ....textparser import Any
+from ....textparser import AnyUntil
+from ....textparser import tokenize_init
+from ....textparser import Token
+from ....textparser import TokenizeError
+from ....textparser import Optional
 
 from ..attribute_definition import AttributeDefinition
 from ..attribute import Attribute

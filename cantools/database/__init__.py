@@ -8,7 +8,7 @@ from ..compat import fopen
 from . import can
 from . import diagnostics
 from . import utils
-import textparser
+from .. import textparser
 
 # Remove once less users are using the old package structure.
 from .can import *

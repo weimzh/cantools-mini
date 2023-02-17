@@ -1,3 +1,0 @@
-textparser
-argparse_addons
-mypy>=0.931

@@ -27,12 +27,8 @@ setup(name='cantools_mini',
       package_data={"cantools": ["py.typed"]},
       python_requires='>=3.6',
       install_requires=[
-          'textparser>=0.21.1',
-          'argparse_addons',
-          'typing_extensions>=3.10.0.0',
       ],
       extras_require=dict(
-          plot=['matplotlib'],
       ),
       entry_points = {
           'console_scripts': ['cantools=cantools.__init__:_main']

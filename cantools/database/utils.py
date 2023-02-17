@@ -4,7 +4,7 @@ import os.path
 import re
 from typing import Union, List, Callable, Tuple, Optional, Dict, Sequence, TYPE_CHECKING
 
-from typing_extensions import Literal, Final
+from ..typing_extensions import Literal, Final
 
 from cantools.typechecking import (
     Formats,

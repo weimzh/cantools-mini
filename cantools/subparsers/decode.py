@@ -1,7 +1,7 @@
 import argparse
 import sys
 import logging
-from argparse_addons import Integer
+from ..argparse_addons import Integer
 
 from .. import database
 from .. import logreader

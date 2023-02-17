@@ -11,7 +11,7 @@ from typing import (
     Callable,
 )
 
-from typing_extensions import TypedDict, Literal, OrderedDict
+from .typing_extensions import TypedDict, Literal, OrderedDict
 from .bitstruct import CompiledFormatDict
 
 if TYPE_CHECKING:

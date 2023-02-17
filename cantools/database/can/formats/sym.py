@@ -8,17 +8,17 @@ from collections import OrderedDict as odict
 from decimal import Decimal
 from typing import Callable, Iterator, List, Optional as TypingOptional
 
-import textparser
-from textparser import Sequence
-from textparser import choice
-from textparser import ZeroOrMore
-from textparser import ZeroOrMoreDict
-from textparser import DelimitedList
-from textparser import tokenize_init
-from textparser import Token
-from textparser import TokenizeError
-from textparser import Optional
-from textparser import Any
+from .... import textparser
+from ....textparser import Sequence
+from ....textparser import choice
+from ....textparser import ZeroOrMore
+from ....textparser import ZeroOrMoreDict
+from ....textparser import DelimitedList
+from ....textparser import tokenize_init
+from ....textparser import Token
+from ....textparser import TokenizeError
+from ....textparser import Optional
+from ....textparser import Any
 
 from ..signal import Signal
 from ..signal import NamedSignalValue
